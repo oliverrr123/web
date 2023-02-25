@@ -1,16 +1,44 @@
 body {
-    font-family: sans-serif;
-    font-size: 125%;
+  font-family: sans-serif;
+  font-size: 150%;
+  margin: 0;
+  background-color: #ddd;
+  text-align: justify;
+}
+
+header {
+  color: #ddd;
+  background-color: #333;
+  padding: 20px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-div {
+/* h3 {
+  padding: 20px 0 10px 0;
+} */
 
-}
+/* main {
+  background-color: #ddd;
+  padding: 30px 10%;
+  text-align: justify;
+  margin: 0;
+} */
 
 a {
     text-decoration: none;
+} 
+
+/* .left, .right {
+  float: left;
+  width: 50%;
+  display: block
+  padding 10px;
 }
+
+.section {
+  overflow: auto;
+} */
+
