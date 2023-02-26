@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: monospace, sans-serif;
   font-size: 150%;
   margin: 0;
   background-color: #ddd;
@@ -13,7 +13,42 @@ header {
 }
 
 h1 {
+  font-family: monospace, sans-serif;
   text-align: center;
+  background-color: #333333aa;
+  margin: 0;
+}
+
+#main-div {
+  background-image: url(image.png);
+  background-size: cover;
+  padding: 20% 10% 20% 10%;
+}
+
+#main-text {
+  color: #fff;
+  text-shadow: 1px 1px 3px#000;
+  font-size: 115%;
+  text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  #main-text {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #main-text {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main-text {
+    font-size: 100%;
+    text-align: center;
+  }
 }
 
 /* h3 {
