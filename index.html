@@ -14,105 +14,68 @@
 <body>
 
 <header>
+  <div class="row">
+    <div class="col-1">
+      <div id="menu-div">
+        <div id="menu"></div>
+        <div id="menu"></div>
+        <div id="menu"></div>
+    </div>
+    </div>
+    <div class="col-10"><h1><a style="color: var(--light)" href="index.html">Oliver Cingl</a></h1></div>
+    <div class="col-1">
 
-  <h1>Oliver Cingl</h1>
+    </div>
+  </div>
 
 </header>
+
+
 
 <div id="main-div">
   <p class="container-fluid" id="main-text">
     <b>Dobrý den vážená přijímací komise, <br>
-    Moje jméno je Oliver Cingl a programuji od svých 12ti let.</b>
+    vítejte na webu mého portfolia</b>
   </p>
 </div>
 
 <main class="container pt-3">
 
-  <div>
-    <h3>
-      Programování je asi jeden z mých nejoblíbenějších koníčků. Umím programovat v Pythonu,
-      C#, Arduino C++, Javě a webu (html, css, js, bootstrap). Zajímám se také o elektrotechniku
-      a umím pracovat s Arduinem. Mimo moje technologické zájmy hraji už 8 let na klavír a mám
-      základní hudební vzdělání a také dělám karate, odkud mám hodně medailí a pro můj karate tým
-      natáčím a stříham videa na oficiální Facebook a YouTube.
-    </h3>
+  <div id="section">
+    <h3 id="section-title"><a href="stuff/programming/programming.html">Programování</a></h3>
+    <p id="section-txt">Programuji od 12ti let a ovládám jazyky Python, C# (Unity), Java, C++ (Arduino), HTML, CSS a JavaScript.</p>
+    <!-- <img id="section-img" src="image.png"> -->
   </div>
-
-  <div class="row">
-
-    <div class="col-sm-8" style="padding-right: 5%;">
-      <p>
-        V srpnu 2020 jsem se začal na mobilu učit <b>web development</b> a brzy
-        jsem naprogramoval svoji první hru "Lenny Face Tycoon". Hru jsem
-        naprogramoval celou jen na mobilu a měla kolem 700 řádků. Hru jsem
-        později vylepšil a upravil na počítač.
-      </p>
-    </div>
-
-    <div class="col-sm-4" style="background-color: #ccc;">
-      <hX><h5 style="padding-top: 10px"><b>Verze Lenny Face Tycoon:</b></h5></hX>
-      <ul class="small">
-          <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">0.2.0 (nejnovější)</a></li>
-          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">0.1.2</a></li>
-          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
-          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0 (nejstarší)</a></li>
-      </ul>
-    </div>
-
+  <div id="section">
+    <h3 id="section-title"><a href="stuff/electrical_engineering/electical_engineering.html">Elektrotechnika</a></h3>
+    <p id="section-txt">V elektrotechnice se zajímám hlavně o <a href="https://www.arduino.cc/" target="_blank">Arduino</a>, s kterým jsem udělal pár zajímavých projektů.</p>
   </div>
-
-  <div>
-    <p>
-        V září jsem se začal učit <b>Python</b> formou kurzů
-        <a href="https://makeittoday.cz/" target="_blank">makeITtoday</a>. Tam jsem dohromady rok
-        absolvoval kurzy Python I a Python II, ve kterých jsem se naučil jak pracovat
-        s Pythonem a třeba integrovat <b>API</b> do svého projektu, nebo jak pracovat s nějakými
-        významnými knihovnamy jako například:
-
-        <dl>
-            <dt><a href="https://pypi.org/project/pygame/" target="_blank">Pygame</a></dt>
-            <dd class="small" style="background-color: #ccc; padding: 1%;">
-                Pygame se používá na vývoj her v pythonu. V Pygame jsem udělal
-                hru <b>snake</b>, kterou jsem později upravil a díky tomu vyhrál
-                soutěž o nejlepší úpravu hry snake a jako cenu jsem dostal
-                3d snake hru na Steamu jménem
-                <a href="https://store.steampowered.com/app/451930/qrthphyl/" target="_blank">qrth-phyl</a>
-                v hodnotě $5.
-            </dd>
-
-            <dt><a href="https://pypi.org/project/bottle/" target="_blank">Bottle</a> & <a href="https://pypi.org/project/Flask/">Flask</a></dt>
-            <dd class="small" style="background-color: #ccc; padding: 1%;">
-                Bottle i Flask jsou knihovny používané převážně k vytváření serverů a webových aplikací.
-            </dd>
-
-            <dt><a href="https://pypi.org/project/pysqlite3/" target="_blank">SQLite</a></dt>
-            <dd class="small" style="background-color: #ccc; padding: 1%;">
-                SQLite je knihovna používaná převážně pro vytváření databází.
-            </dd>
-
-            <dd class="small">a mnoho dalších...</dd>
-        </dl>
-
-    </p>
+  <div id="section">
+    <h3 id="section-title"><a href="stuff/video_editing/video_editing.html">Video Editing</a></h3>
+    <p id="section-txt">Videa edituji již opravdu dlouho, dokonce jsem si tím získal nemálo dobrých brigád.</p>
   </div>
-
-  <div>
-    Do <a href="https://makeittoday.cz/" target="_blank">makeITtoday</a> jsem další školní rok
-    začal chodit na kurzy herního enginu <a href="https://unity.com/" target="_blank">Unity</a>.
-    V tomto enginu se programuje v jazyce <b>C#</b>, je to asi nejpoužívanější engine
-    vůbec a bylo v něm vytvořeno nespočetně mnoho známých her.
+  <div id="section">
+    <h3 id="section-title"><a href="stuff/art/art.html">3D/2D Art</a></h3>
+    <p id="section-txt">Nyní spíše dělam 3D art v <a href="https://www.blender.org/" target="_blank">Blenderu</a>, kde vytvářím hlavně rendery, ale někdy i něco do Unity, nebo na 3D tisk.</p>
   </div>
-  <div>
-    Po absolvování kurzů Unity I a Unity II po dobu jednoho roku jsem začal chodit do dalšího
-    kurzu od <a href="https://makeittoday.cz/" target="_blank">makeITtoday</a>, kam dosud chodím
-    a učím se programovací jazyk <b>Java</b>. Java je asi jeden z nejpoužívanější programovacích
-    jazyků. V tomto kurzu jsem se naučil základy Javy a nyní se učím, jak dělat mody do Minecraftu
-    pomocí add-onu Forge.
+  <div id="section">
+    <h3 id="section-title"><a href="stuff/piano/piano.html">Piano</a></h3>
+    <p id="section-txt">Na piano hraji od 6ti let a mám základní hudební vzdělání.</p>
   </div>
-
-
+  <div id="section">
+    <h3 id="section-title"><a href="stuff/karate/karate.html">Karate</a></h3>
+    <p id="section-txt">Na karate mám sice jen žlutý pásek, ale jsem dvojnásobný mistr světa v jedné kategorii a na karate soustředění jedu jako praktikant.</p>
+  </div>
+  <div id="section">
+    <h3 id="section-title"><a href="stuff/japanese/japanese.html">Japonština</a></h3>
+    <p id="section-txt">Japonsky se učím již skoro 2 roky a mám úroveň <a href="https://en.wikipedia.org/wiki/Japanese-Language_Proficiency_Test" target="_blank">JLPT</a> N5, což je ekvivalent k CEFR A1-A2</p>
+  </div>
 
 </main>
+
+<footer>
+  <p>&copy 2023 Oliver Cingl</p>
+</footer>
 
 </body>
 </html>
