@@ -3,6 +3,7 @@
   --dark: #222;
   --light: #ccc;
   --white: #fff;
+  --blue: #00f;
 }
 
 body {
@@ -14,7 +15,11 @@ body {
   color: var(--light);
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; transition: 200ms; }
+
+a:hover {
+  text-shadow: 0px 0px 5px var(--blue);
+}
 
 header {
   color: var(--light);
@@ -68,10 +73,10 @@ h1 {
   height: 28px;
 }
 
-/* #menu-div:hover > .menu {
+#menu-div:hover > .menu {
   background-color: var(--white);
   box-shadow: 0px 0px 5px 1px var(--light);
-} */
+}
 
 @media screen and (max-width: 600px) {
   .menu {
