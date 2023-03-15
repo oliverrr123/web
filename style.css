@@ -71,6 +71,12 @@ h1 {
 #menu-div {
   width: 35px;
   height: 28px;
+  /* background-color: blue; */
+  margin-left: 15%;
+  /* padding-left: 5%;
+  /* width: 45%; */
+  height: 85%;
+  padding-top: 1%; 
 }
 
 #menu-div:hover > .menu {
@@ -200,12 +206,24 @@ footer > p {
 
 #footer {
   position: absolute;
-    bottom: 0;
-    width: 100%;
+  bottom: 0;
+  width: 100%;
 }
 
 @media screen and (max-height: 800px) {
   #footer {
+    position: relative;
+  }
+}
+
+#footer-1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-height: 500px) {
+  #footer-1 {
     position: relative;
   }
 }

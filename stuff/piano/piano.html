@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <title>Programování</title>
+    <title>Piano</title>
     <meta charset="utf-8">
     <meta name="description" content="Oliver Cingl - Portfolio - Programování">
     <meta name="author" content="Oliver Cingl">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+      $(function() { $("#header").load("../../header.html"); });
+    </script>
 </head>
 <body>
 
-<header>
-    <div class="row">
-        <div class="col-1">
-        <div style="margin: 0% 15%;">
-            <div id="menu"></div>
-            <div id="menu"></div>
-            <div id="menu"></div>
-        </div>
-        </div>
-        <div class="col-10"><h1><a style="color: #ccc" href="../index.html">Oliver Cingl</a></h1></div>
-        <div class="col-1">
-        </div>
-    </div>
-</header>
+<div id="header"></div>
 
-<main class="container">
+<main class="container pt-5 pb-5">
+<div id="main">
+  <div style="padding-bottom: 1%;">
+    <h3>
+      V šesti letech jsem začal chodit na <a href="https://www.zuss.cz/" target="_blank">
+      základní uměleckou školu</a> a nyní mám základní hudební vzdělání.
+    </h3>
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-8" style="padding-right: 5%;">
+      <p>
+        Každý rok se naučím dvě skladby a ty potom hraji na několika koncertech. Naposledy jsem hrál 
+        na narozeninovém koncertě učitele a skladatele <a href="http://www.emilhradecky.cz/">
+        Emila Hradeckého</a> jako překvapení šestiruční (3 lidé hrají najednou) skladbu.
+      </p>
+    </div>
+
+    <div class="col-sm-4" style="background-color: var(--black);">
+      <hX><h5 style="padding-top: 10px"><b>videa z mých koncertů:</b></h5></hX>
+      <ul class="small">
+          <li><a href="../lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">0.2.0</a></li>
+          <li><a href="../lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">0.1.2</a></li>
+          <li><a href="../lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+          <li><a href="../lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+      </ul>
+    </div>
+
+  </div>
 
 </main>
 
-<footer>
+<footer id="footer-1">
     <p>&copy 2023 Oliver Cingl</p>
 </footer>
 
 </body>
 </html>
+
+<script src="../../script.js"></script>
