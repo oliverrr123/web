@@ -13,16 +13,77 @@
 </head>
 <body>
 
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" id="offcanvas">
+  <div style="padding-top: 5%; padding-bottom: 5%; margin-bottom: 5%; background-color: var(--black);">
+    <div class="row">
+      <div class="col-9">
+        <h1>menu</h1>
+      </div>
+      <div class="col-2" style="padding-top: 1.25%;">
+        <a data-bs-dismiss="offcanvas">
+          <div id="menu-div">  
+            <div id="menu" class="menu1"></div>
+            <div id="menu" class="menu2"></div>
+            <div id="menu" class="menu3"></div>
+          </div>
+        </a>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-11">
+      <ul>
+        <li><a href="stuff/programming/programming.html">Programování</a></li>
+        <li><a href="stuff/electrical_engineering/electical_engineering.html">Elektrotechnika</a></li>
+        <li><a href="stuff/video_editing/video_editing.html">Video Editing</a></li>
+        <li><a href="stuff/art/art.html">3D/2D Art</a></li>
+        <li><a href="stuff/piano/piano.html">Piano</a></li>
+        <li><a href="stuff/karate/karate.html">Karate</a></li>
+        <li><a href="stuff/japanese/japanese.html">Japonština</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+</div> -->
+
+
 <header>
   <div class="row">
     <div class="col-1">
-      <div id="menu-div">
-        <div id="menu"></div>
-        <div id="menu"></div>
-        <div id="menu"></div>
+      <a data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+      <div id="menu-div" style="padding-left: 15%;">
+        
+        <div id="menu" class="menu1"></div>
+        <div id="menu" class="menu2"></div>
+        <div id="menu" class="menu3"></div>
+        
+      </div>
+      </a>
     </div>
-    </div>
-    <div class="col-10"><h1><a style="color: var(--light)" href="index.html">Oliver Cingl</a></h1></div>
+    <div class="col-10"><h1><a id="main-h1" href="index.html">Oliver Cingl</a></h1></div>
     <div class="col-1">
 
     </div>

@@ -29,6 +29,78 @@ h1 {
   margin: 0;
 }
 
+#offcanvas {
+  color: var(--light);
+  background-color: var(--dark);
+  width: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  #offcanvas {
+    width: 100%;
+  }
+}
+
+#main-h1 {
+  color: var(--light);
+  transition: 200ms;
+}
+
+#main-h1:hover {
+  color: var(--white);
+  text-shadow: 0px 0px 5px var(--light);
+}
+
+#menu {
+  background-color: var(--light);
+  /* padding: 2.5px 5px;
+  margin: 7.5px;
+  position: relative; */
+  width: 35px;
+  height: 4px;
+  margin: 7px 0;
+  transition: 150ms;
+}
+
+#menu-div {
+  width: 35px;
+  height: 28px;
+}
+
+#menu-div:hover > #menu {
+  background-color: var(--white);
+  box-shadow: 0px 0px 5px 1px var(--light);
+}
+
+/* #menu-div:hover > .menu1 {
+  rotate: 45deg;
+  translate: 0px 10px;
+}
+#menu-div:hover > .menu2 {
+  opacity: 0;
+  /* rotate: 90deg; */
+  /* translate: -17.5px 0px; */
+  /* translate: -20px 0px;
+}
+#menu-div:hover > .menu3 {
+  rotate: -45deg;
+  translate: 0px -10px;
+} */
+
+@media screen and (max-width: 600px) {
+  #menu {
+    width: 30px;
+    height: 4px;
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #menu-div {
+    width: 30px;
+    height: 20px;
+  }
+}
 
 #main-div {
   height: 92vh;
@@ -75,36 +147,6 @@ h1 {
   #main-text {
     font-size: 100%;
     text-align: center;
-  }
-}
-
-#menu {
-  background-color: var(--light);
-  /* padding: 2.5px 5px;
-  margin: 7.5px;
-  position: relative; */
-  width: 35px;
-  height: 4px;
-  margin: 7px 0;
-}
-
-#menu-div {
-  width: 35px;
-  height: 28px;
-}
-
-@media screen and (max-width: 600px) {
-  #menu {
-    width: 30px;
-    height: 4px;
-    margin: 5px 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #menu-div {
-    width: 30px;
-    height: 20px;
   }
 }
 
