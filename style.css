@@ -227,3 +227,15 @@ footer > p {
     position: relative;
   }
 }
+
+#footer-2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-height: 650px) {
+  #footer-2 {
+    position: relative;
+  }
+}
