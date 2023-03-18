@@ -236,3 +236,21 @@ footer > p {
     position: relative;
   }
 }
+
+#footer-3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-height: 1000px) {
+  #footer-3 {
+    position: relative;
+  }
+} 
+
+/* @media screen and (max-width: 1000px) {
+  #footer-3 {
+    position: relative;
+  }
+} */
