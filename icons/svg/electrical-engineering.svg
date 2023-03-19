@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+	<title>electrical-engineering</title>
+	<style>
+		.s0 { fill: #0000ff } 
+		.s1 { fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 128 } 
+		.s2 { fill: none;stroke: #ffffff;stroke-width: 128 } 
+	</style>
+	<path id="Shape 1" class="s0" d="m512 1024c-283.1 0-512-228.9-512-512 0-283.1 228.9-512 512-512 283.1 0 512 228.9 512 512 0 283.1-228.9 512-512 512z"/>
+	<path id="Shape 4" class="s1" d="m380 358h18v300h-18z"/>
+	<path id="Shape 4 copy" class="s1" d="m752 545v5h-315v-5z"/>
+	<path id="Shape 4 copy 2" class="s1" d="m755 545h-4v-137h4z"/>
+	<path id="Shape 3" class="s2" d="m391 876c-53.1 0-96-42.9-96-96 0-53.1 42.9-96 96-96 53.1 0 96 42.9 96 96 0 53.1-42.9 96-96 96z"/>
+	<path id="Shape 3 copy" class="s2" d="m391 339c-53.1 0-96-42.9-96-96 0-53.1 42.9-96 96-96 53.1 0 96 42.9 96 96 0 53.1-42.9 96-96 96z"/>
+	<path id="Shape 3 copy 2" class="s2" d="m748 373c-26.5 0-48-21.5-48-48 0-26.5 21.5-48 48-48 26.5 0 48 21.5 48 48 0 26.5-21.5 48-48 48z"/>
+</svg>
