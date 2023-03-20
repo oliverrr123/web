@@ -182,14 +182,51 @@ h1 {
   padding: 1.5% 3%;
 }
 
-.blackbox {
+/* .blackbox {
   background-color: var(--black);
   padding-left: 5%;
   padding-bottom: 0.5%;
   padding-top: 0.5%;
   text-align: left;
   font-size: 80%;
+} */
+
+.blackbox {
+  background-color: black;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: left;
 }
+
+#blackbox-md {
+  width: 30%;
+  margin-left: 3%;
+  float: right;
+}
+
+@media screen and (max-width: 770px) {
+  #blackbox-md {
+    width: 40%;
+  }
+}
+
+#blackbox-lg {
+  width: 40%;
+  margin-left: 3%;
+  float: right;
+}
+
+@media screen and (max-width: 1200px) {
+  #blackbox-lg {
+    width: 50%;
+  }
+}
+
+#blackbox-phone {
+  margin-left: 0%;
+  padding-bottom: 1%;
+}
+
 
 footer {
   background-color: var(--black);
