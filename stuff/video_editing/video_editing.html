@@ -19,9 +19,10 @@
 
 <div id="header"></div>
 
-<main class="container pt-5 pb-5">
+<main class="container pt-5 pb-5" style="flex-grow: 1;">
 
   <div id="main">
+
       <div style="padding-bottom: 1%;">
         <h3>
           O editování videí se zajímám už od svého dětství. Začínal jsem v PowerDirectoru
@@ -29,8 +30,7 @@
         </h3>
       </div>
     
-      <div id="container">
-        
+      <div id="container-md">
         <div class="blackbox" id="blackbox-md">
           <hX><h5 style="padding-top: 10px"><b>video z vánočního turnaje:</b></h5></hX>
           <ul class="small">
@@ -38,7 +38,6 @@
               <li><a href="screenshots/xmas_tournament.png" target="_blank">screenshot DaVinci Resolve</a></li>
           </ul>
         </div>
-
         <div id="container-txt">
           <p>
             Když jsem byl jednou na karate soustředění, dostali jsme za úkol udělat pár videí
@@ -49,16 +48,79 @@
             na kterých jsem). Většina z nich je skoukromých, ale tady je příklad jednoho veřejného.
           </p>
         </div>
-
       </div>
 
+    
+      <div style="padding-top: 1%;">
+      <p>
+        Mimo brigád ze závodů jsem dostal i nabídku pracovní smlouvy jako praktikant na letním soustředění, ze kterého
+        budu dělat také video. K tomu budu mít k dispozici z dotací gimbal 
+        <a href="https://www.dji.com/cz/osmo-mobile-6" target="_blank">DJI Osmo Mobile 6</a>, což je teď nejlepší gimbal
+        na trhu, a drona <a href="https://www.autelrobotics.com/productdetail/evo-nano-series-drones.html" target="_blank">
+        Autel EVO Nano+</a> dohromady v hodnotě cca 20,000 Kč.
+      </p>
+      </div>
+
+      <div id="container-lg">
+        <div class="blackbox" id="blackbox-lg">
+          <hX><h5 style="padding-top: 10px"><b>další projekty:</b></h5></hX>
+            <ul class="small">
+                <li><a href="https://www.facebook.com/1399237628/videos/206958558686159/" target="_blank">reklama na koncert</a> |&nbsp;<a href="screenshots/beseda.png" target="_blank">screenshot</a></li>
+                <li><a href="https://youtu.be/jJ6LuzPB1j4" target="_blank">ramen asmr cooking</a> |&nbsp;<a href="screenshots/ramen.png" target="_blank">screenshot</a></li>
+                <li><a href="https://youtu.be/b4Od29BiGGQ" target="_blank">drift tříkolky</a> |&nbsp;<a href="screenshots/dorifuto.png" target="_blank">screenshot</a></li>
+            </ul>
+        </div>
+        <div class="container-txt">
+          <p>
+            Taky dělám samozřejmě jiná videa, než pro Karate Letná, například jsem dělal reklamu na koncert, nebo
+            si dělám vlastní projekty.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2023 Oliver Cingl</p>
+</footer>
+
+</body>
+</html>
+
+<script src="../../script.js"></script>
+
+<script>
+  if (screen.width <= 450) {
+    // console.log(document.getElementById("blackbox-md").innerHTML);
+    document.getElementById("container-lg").innerHTML = `
+      <div id="container-txt">
+        ${document.getElementById("container-txt").innerHTML}
+      </div>
+      <div class="blackbox" id="blackbox-phone">
+        ${document.getElementById("blackbox-md").innerHTML}
+      </div>
+    `;
+    document.getElementById("container-md").innerHTML = `
+      <div id="container-txt">
+        ${document.getElementById("container-txt").innerHTML}
+      </div>
+      <div class="blackbox" id="blackbox-phone">
+        ${document.getElementById("blackbox-md").innerHTML}
+      </div>
+    `;
+  }
+</script>
 
 
 
 
 
 
-      <!-- <div class="row">
+
+
+<!-- <div class="row">
     
         <div class="col-sm-8" style="padding-right: 5%;">
           <p>
@@ -82,45 +144,11 @@
         </div>
     
       </div> -->
-    
-      <div style="padding-top: 1%;">
-      <p>
-        Mimo brigád ze závodů jsem dostal i nabídku pracovní smlouvy jako praktikant na letním soustředění, ze kterého
-        budu dělat také video. K tomu budu mít k dispozici z dotací gimbal 
-        <a href="https://www.dji.com/cz/osmo-mobile-6" target="_blank">DJI Osmo Mobile 6</a>, což je teď nejlepší gimbal
-        na trhu, a drona <a href="https://www.autelrobotics.com/productdetail/evo-nano-series-drones.html" target="_blank">
-        Autel EVO Nano+</a> dohromady v hodnotě cca 20,000 Kč.
-      </p>
-      </div>
-
-      <div id="container">
-        
-        <div class="blackbox" id="blackbox-lg">
-          <hX><h5 style="padding-top: 10px"><b>další projekty:</b></h5></hX>
-            <ul class="small">
-                <li><a href="https://www.facebook.com/1399237628/videos/206958558686159/" target="_blank">reklama na koncert</a> |&nbsp;<a href="screenshots/beseda.png" target="_blank">screenshot</a></li>
-                <li><a href="https://youtu.be/jJ6LuzPB1j4" target="_blank">ramen asmr cooking</a> |&nbsp;<a href="screenshots/ramen.png" target="_blank">screenshot</a></li>
-                <li><a href="https://youtu.be/b4Od29BiGGQ" target="_blank">drift tříkolky</a> |&nbsp;<a href="screenshots/dorifuto.png" target="_blank">screenshot</a></li>
-            </ul>
-        </div>
-
-        <div class="container-txt">
-          <p>
-            Taky dělám samozřejmě jiná videa, než pro Karate Letná, například jsem dělal reklamu na koncert, nebo
-            si dělám vlastní projekty.
-          </p>
-        </div>
-
-      </div>
-
-      <br>
-      <br>
-      <br>
-      <br>
 
 
-      
-      <!-- <div class="row">
+
+
+<!-- <div class="row">
     
         <div class="col-sm-8" style="padding-right: 5%;">
           <p>
@@ -141,34 +169,3 @@
         </div>
     
       </div> -->
-
-    </div>
-
-
-
-
-
-</main>
-
-<footer>
-    <p>&copy 2023 Oliver Cingl</p>
-</footer>
-
-</body>
-</html>
-
-<script src="../../script.js"></script>
-
-<script>
-  if (screen.width <= 450) {
-    // console.log(document.getElementById("blackbox-md").innerHTML);
-    document.getElementById("container").innerHTML = `
-      <div id="container-txt">
-        ${document.getElementById("container-txt").innerHTML}
-      </div>
-      <div class="blackbox" id="blackbox-phone">
-        ${document.getElementById("blackbox-md").innerHTML}
-      </div>
-    `
-  }
-</script>

@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script>
       $(function() { $("#header").load("header.html"); });
+      $(function() { $("#footer").load("footer.html"); });
     </script>
 </head>
 <body>
@@ -28,7 +29,7 @@
   </p>
 </div>
 
-<main class="container pt-3">
+<main class="container pt-3" style="flex-grow: 1;">
 
   <div id="section">
     <h3 id="section-title"><a href="stuff/programming/programming.html">Programování</a></h3>
@@ -62,9 +63,7 @@
 
 </main>
 
-<footer>
-  <p>&copy 2023 Oliver Cingl</p>
-</footer>
+<div id="footer"></div>
 
 </body>
 </html>
