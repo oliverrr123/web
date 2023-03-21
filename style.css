@@ -187,10 +187,10 @@ h1 {
   }
 }
 
-#blackbox {
+/* .blackbox {
   background-color: var(--black);
   padding: 1.5% 3%;
-}
+} */
 
 /* .blackbox {
   background-color: var(--black);
@@ -202,32 +202,67 @@ h1 {
 } */
 
 .blackbox {
-  background-color: black;
+  background-color: var(--black);
   padding-left: 2%;
   padding-right: 2%;
   text-align: left;
+  font-size: 90%;
 }
 
-#blackbox-md {
-  width: 30%;
+.blackbox h6 {
+  margin-bottom: 1%;
+}
+
+.blackbox-xs {
+  width: 20%;
   margin-left: 3%;
   float: right;
 }
 
 @media screen and (max-width: 770px) {
-  #blackbox-md {
+  .blackbox-xs {
     width: 40%;
   }
 }
 
-#blackbox-lg {
+.blackbox-sm {
+  width: 20%;
+  margin-left: 3%;
+  float: right;
+}
+
+@media screen and (max-width: 1000px) {
+  .blackbox-sm {
+    width: 35%;
+  }
+}
+
+.blackbox-md {
+  width: 30%;
+  margin-left: 3%;
+  float: right;
+}
+
+@media screen and (max-width: 990px) {
+  .blackbox-md {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .blackbox-md {
+    width: 50%;
+  }
+}
+
+.blackbox-lg {
   width: 40%;
   margin-left: 3%;
   float: right;
 }
 
 @media screen and (max-width: 1200px) {
-  #blackbox-lg {
+  .blackbox-lg {
     width: 50%;
   }
 }
@@ -249,58 +284,3 @@ footer > p {
   margin: 0; padding: 0;
 }
 
-/* #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-@media screen and (max-height: 1000px) {
-  @media screen and (max-width: 1500px) {
-    #footer {
-      position: relative;
-    }
-  }
-} */
-
-/* #footer-1 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-@media screen and (max-height: 500px) {
-  #footer-1 {
-    position: relative;
-  }
-}
-
-#footer-2 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-@media screen and (max-height: 650px) {
-  #footer-2 {
-    position: relative;
-  }
-}
-
-#footer-3 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-@media screen and (max-height: 1000px) {
-  #footer-3 {
-    position: relative;
-  }
-}  */
-
-/* @media screen and (max-width: 1000px) {
-  #footer-3 {
-    position: relative;
-  }
-} */

@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script>
       $(function() { $("#header").load("../../header.html"); });
+      $(function() { $("#footer").load("../../footer.html"); });
     </script>
 </head>
 <body>
@@ -30,9 +31,9 @@
         </h3>
       </div>
     
-      <div id="container-md">
-        <div class="blackbox" id="blackbox-md">
-          <hX><h5 style="padding-top: 10px"><b>video z vánočního turnaje:</b></h5></hX>
+      <div id="container-sm">
+        <div class="blackbox" id="blackbox-sm">
+          <hX><h6 style="padding-top: 10px"><b>video z vánočního turnaje:</b></h6></hX>
           <ul class="small">
               <li><a href="https://fb.watch/jeDxjaAGXv/" target="_blank">video</a></li>
               <li><a href="screenshots/xmas_tournament.png" target="_blank">screenshot DaVinci Resolve</a></li>
@@ -63,7 +64,7 @@
 
       <div id="container-lg">
         <div class="blackbox" id="blackbox-lg">
-          <hX><h5 style="padding-top: 10px"><b>další projekty:</b></h5></hX>
+          <hX><h6 style="padding-top: 10px"><b>další projekty:</b></h6></hX>
             <ul class="small">
                 <li><a href="https://www.facebook.com/1399237628/videos/206958558686159/" target="_blank">reklama na koncert</a> |&nbsp;<a href="screenshots/beseda.png" target="_blank">screenshot</a></li>
                 <li><a href="https://youtu.be/jJ6LuzPB1j4" target="_blank">ramen asmr cooking</a> |&nbsp;<a href="screenshots/ramen.png" target="_blank">screenshot</a></li>
@@ -82,9 +83,7 @@
 
 </main>
 
-<footer>
-    <p>&copy; 2023 Oliver Cingl</p>
-</footer>
+<div id="footer"></div>
 
 </body>
 </html>
@@ -99,15 +98,15 @@
         ${document.getElementById("container-txt").innerHTML}
       </div>
       <div class="blackbox" id="blackbox-phone">
-        ${document.getElementById("blackbox-md").innerHTML}
+        ${document.getElementById("blackbox-lg").innerHTML}
       </div>
     `;
-    document.getElementById("container-md").innerHTML = `
+    document.getElementById("container-sm").innerHTML = `
       <div id="container-txt">
         ${document.getElementById("container-txt").innerHTML}
       </div>
       <div class="blackbox" id="blackbox-phone">
-        ${document.getElementById("blackbox-md").innerHTML}
+        ${document.getElementById("blackbox-sm").innerHTML}
       </div>
     `;
   }

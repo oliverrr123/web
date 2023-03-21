@@ -15,6 +15,14 @@
       $(function() { $("#header").load("../../header.html"); });
       $(function() { $("#footer").load("../../footer.html"); });
     </script>
+    <style>
+      dl > dd {
+        padding: 0% 2%;
+      }
+      dl > dt {
+        padding-bottom: 1%;
+      }
+    </style>
 </head>
 <body>
 
@@ -29,7 +37,27 @@
     </h3>
   </div>
 
-  <div class="row">
+  <div class="container-xs" style="padding-bottom: 6%;">
+    <div class="blackbox blackbox-xs">
+      <hX><h6 style="padding-top: 10px"><b>Verze Lenny Face Tycoon:</b></h6></hX>
+        <ul class="small">
+          <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">0.2.0</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">0.1.2</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+        </ul>
+    </div>
+    <div class="container-txt">
+      <p>
+        V srpnu 2020 jsem se začal na mobilu učit <b>web development</b> a brzy 
+        naprogramoval svoji první hru "Lenny Face Tycoon", celou jen na mobilu
+        a měla dohromady kolem 700 řádků. Hru jsem
+        později ještě vylepšil a upravil na počítač.
+      </p>
+    </div>
+  </div>
+
+  <!-- <div class="row">
 
     <div class="col-md-8" style="padding-right: 3%;" id="lft-blackbox-1">
       <p>
@@ -52,12 +80,41 @@
       </div>
       
     </div>
-
+    
+  </div> -->
+  
+  <div class="container-md" style="padding-bottom: 4%;">
+    <div class="blackbox blackbox-md">
+      <hX><h6 style="padding-top: 10px"><b>moje diplomy a hodnocení:</b></h6></hX>
+      <ul class="small">
+          <li><a href="diplomas/doporuceni.pdf" target="_blank">doporučení Vojtěcha Tumy</a></li>
+          <li><a href="" target="_blank">Python I diplom</a></li>
+          <li><a href="" target="_blank">Python I hodnocení</a></li>
+          <li><a href="" target="_blank">Python II diplom</a></li>
+          <li><a href="" target="_blank">Python II hodnocení</a></li>
+          <li><a href="" target="_blank">Unity I diplom</a></li>
+          <li><a href="" target="_blank">Unity I hodnocení</a></li>
+          <li><a href="diplomas/Unity_II_diplom.pdf" target="_blank">Unity II diplom</a></li>
+          <li><a href="diplomas/Unity_II_hodnoceni.pdf" target="_blank">Unity II hodnocení</a></li>
+          <li><a href="" target="_blank">Java I diplom</a></li>
+          <li><a href="" target="_blank">Java I hodnocení</a></li>
+      </ul>
+    </div>
+    <div id="container-txt container-md-txt">
+      <p>
+          V září jsem se začal učit <b>Python</b> formou kurzů <a href="https://makeittoday.cz/" target="_blank">makeITtoday</a>, kam nyní chodím
+          třetím rokem. Každý kurz (půlrok) jsem dostal diplom a osobní hodnocení lektora. Mimo tyto hodnocení jsem ještě požádal jednoho
+          lektora, se kterým se znám, aby mi napsal <a href="diplomas/doporuceni.pdf" target="_blank">doporučení</a>. <br>
+          V <a href="https://makeittoday.cz/" target="_blank">makeITtoday</a> jsem dohromady rok
+          absolvoval kurzy Python I a Python II, ve kterých jsem se naučil jak pracovat
+          s Pythonem a třeba integrovat <b>API</b> do svého projektu, nebo jak pracovat s nějakými
+          významnými knihovnamy jako například:
+      </p>
+    </div>
   </div>
 
-  <div style="padding-top: 1%">
 
-    <div class="row">
+    <!-- <div class="row">
 
       <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
         <p>
@@ -86,136 +143,222 @@
               <li><a href="diplomas/Unity_II_hodnoceni.pdf" target="_blank">Unity II hodnocení</a></li>
               <li><a href="" target="_blank">Java I diplom</a></li>
               <li><a href="" target="_blank">Java I hodnocení</a></li>
-              
           </ul>
         </div>
       </div>
 
-    </div>
+    </div> -->
       
     <dl>
-        <dt><a href="https://pypi.org/project/pygame/" target="_blank">Pygame</a></dt>
-        <dd class="small">
+      <dt><a href="https://pypi.org/project/pygame/" target="_blank">Pygame</a></dt>
+      <dd class="small">
 
-          <div class="row">
-
-            <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
-              <p>
-                Pygame se používá na vývoj her v pythonu. V Pygame jsem udělal
-                hru <b>snake</b>, kterou jsem později upravil a díky tomu vyhrál
-                soutěž o nejlepší úpravu hry snake a jako cenu jsem dostal
-                3d snake hru na Steamu jménem
-                <a href="https://store.steampowered.com/app/451930/qrthphyl/" target="_blank">qrth-phyl</a>
-                v hodnotě $5. Pygame bylo asi rok moje hlavní zaměření. Dělal jsem různé hry a třeba kombinoval tuto knihovnu
-                ještě s knihovnou Tkinter, ve které jsem pro hry dělal UI, ve kterém se potom spustila hra v okně Pygame.
-              </p>
-            </div>
-        
-            <div class="col-md-4">
-              <div class="blackbox">
-                <hX><h6 style="padding-top: 10px"><b>moje Pygame projekty:</b></h6></hX>
-                <ul class="small">
-                    <li><a href="" target="_blank">snake</a></li>
-                    <li><a href="" target="_blank">snake upgrade</a></li>
-                    <li><a href="" target="_blank">coin runner</a></li>
-                    <li><a href="" target="_blank">0.1.1</a></li>
-                    <li><a href="" target="_blank">0.1.0</a></li>
-                </ul>
-              </div>
-            </div>
-
+        <div class="container-md">
+          <div class="blackbox blackbox-md">
+            <hX><h6 style="padding-top: 10px"><b>moje Pygame projekty:</b></h6></hX>
+              <ul class="small">
+                <li><a href="" target="_blank">snake</a></li>
+                <li><a href="" target="_blank">snake upgrade</a></li>
+                <li><a href="" target="_blank">coin runner</a></li>
+                <li><a href="" target="_blank">0.1.1</a></li>
+                <li><a href="" target="_blank">0.1.0</a></li>
+              </ul>
           </div>
-        </dd>
-
-        <dt><a href="https://docs.python.org/3/library/tkinter.html#module-tkinter" target="_blank">Tkinter</a></dt>
-        <dd class="small">
-
-          <div class="row">
-
-            <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
-              <p>
-                Tkinter je built-in knihovna v Pythonu používaná na vytváření GUI (graphical user interface) v Tkinteru
-                jsem dělal například UI pro chat server aplikaci, nebo pro nějaké moje hry.
-              </p>
-            </div>
-        
-            <div class="col-md-4">
-              <div class="blackbox">
-                <hX><h6 style="padding-top: 10px"><b>moje Tkinter projekty:</b></h6></hX>
-                <ul class="small">
-                    <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">chat server</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">coin runner</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
-                </ul>
-              </div>
-            </div>
-
+          <div id="container-txt container-md-txt">
+            <p>
+              Pygame se používá na vývoj her v pythonu. V Pygame jsem udělal
+              hru <b>snake</b>, kterou jsem později upravil a díky tomu vyhrál
+              soutěž o nejlepší úpravu hry snake a jako cenu jsem dostal
+              3d snake hru na Steamu jménem
+              <a href="https://store.steampowered.com/app/451930/qrthphyl/" target="_blank">qrth-phyl</a>
+              v hodnotě $5. Pygame bylo asi rok moje hlavní zaměření. Dělal jsem různé hry a třeba kombinoval tuto knihovnu
+              ještě s knihovnou Tkinter, ve které jsem pro hry dělal UI, ve kterém se potom spustila hra v okně Pygame.
+            </p>
           </div>
-        </dd>
+        </div>
 
-        <dt><a href="https://pypi.org/project/bottle/" target="_blank">Bottle</a> & <a href="https://pypi.org/project/Flask/" target="_blank">Flask</a></dt>
-        <dd class="small">
-          <div class="row">
+        <!-- <div class="row">
 
-            <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
-              <p>
-                Bottle i Flask jsou knihovny používané převážně k vytváření serverů a webových aplikací. Pomocí !!! bottle/flask ? !!!
-                jsem udělal chat server aplikaci, která používá Tkinter jako UI, nebo pár web serverů, většinou zobrazující nějaká data
-                z různých API.
-              </p>
+          <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
+            <p>
+              Pygame se používá na vývoj her v pythonu. V Pygame jsem udělal
+              hru <b>snake</b>, kterou jsem později upravil a díky tomu vyhrál
+              soutěž o nejlepší úpravu hry snake a jako cenu jsem dostal
+              3d snake hru na Steamu jménem
+              <a href="https://store.steampowered.com/app/451930/qrthphyl/" target="_blank">qrth-phyl</a>
+              v hodnotě $5. Pygame bylo asi rok moje hlavní zaměření. Dělal jsem různé hry a třeba kombinoval tuto knihovnu
+              ještě s knihovnou Tkinter, ve které jsem pro hry dělal UI, ve kterém se potom spustila hra v okně Pygame.
+            </p>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="blackbox">
+              <hX><h6 style="padding-top: 10px"><b>moje Pygame projekty:</b></h6></hX>
+              <ul class="small">
+                  <li><a href="" target="_blank">snake</a></li>
+                  <li><a href="" target="_blank">snake upgrade</a></li>
+                  <li><a href="" target="_blank">coin runner</a></li>
+                  <li><a href="" target="_blank">0.1.1</a></li>
+                  <li><a href="" target="_blank">0.1.0</a></li>
+              </ul>
             </div>
+          </div>
+
+        </div> -->
+
+
+      </dd>
+
+      <dt><a href="https://docs.python.org/3/library/tkinter.html#module-tkinter" target="_blank">Tkinter</a></dt>
+      <dd class="small">
+
+        <div class="container-md">
+          <div class="blackbox blackbox-md">
+            <hX><h6 style="padding-top: 10px"><b>moje Tkinter projekty:</b></h6></hX>
+              <ul class="small">
+                <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">chat server</a></li>
+                <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">coin runner</a></li>
+                <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+                <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+              </ul>
+          </div>
+          <div class="container-txt container-md-txt">
+            <p>
+              Tkinter je built-in knihovna v Pythonu používaná na vytváření GUI (graphical user interface) v Tkinteru
+              jsem dělal například UI pro chat server aplikaci, nebo pro nějaké moje hry.
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="row">
+
+          <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
+            <p>
+              Tkinter je built-in knihovna v Pythonu používaná na vytváření GUI (graphical user interface) v Tkinteru
+              jsem dělal například UI pro chat server aplikaci, nebo pro nějaké moje hry.
+            </p>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="blackbox">
+              <hX><h6 style="padding-top: 10px"><b>moje Tkinter projekty:</b></h6></hX>
+              <ul class="small">
+                  <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">chat server</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">coin runner</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div> -->
+
+      </dd>
+
+      <dt><a href="https://pypi.org/project/bottle/" target="_blank">Bottle</a> & <a href="https://pypi.org/project/Flask/" target="_blank">Flask</a></dt>
+      <dd class="small">
         
-            <div class="col-md-4">
-              <div class="blackbox">
-                <hX><h6 style="padding-top: 10px"><b>moje Bottle & Flask projekty:</b></h6></hX>
-                <ul class="small">
-                    <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">chat server</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">recepty</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">Donald Trump dumb quotes</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">crypto web</a></li>
-                </ul>
-              </div>
+        <div class="container-md">
+          <div class="blackbox blackbox-md">
+            <hX><h6 style="padding-top: 10px"><b>moje Bottle & Flask projekty:</b></h6></hX>
+            <ul class="small">
+              <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">chat server</a></li>
+              <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">recepty</a></li>
+              <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">Donald Trump dumb quotes</a></li>
+              <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">crypto web</a></li>
+            </ul>
+          </div>
+          <div class="container-txt container-md-txt">
+            <p>
+              Bottle i Flask jsou knihovny používané převážně k vytváření serverů a webových aplikací. Pomocí !!! bottle/flask ? !!!
+              jsem udělal chat server aplikaci, která používá Tkinter jako UI, nebo pár web serverů, většinou zobrazující nějaká data
+              z různých API.
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="row">
+
+          <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
+            <p>
+              Bottle i Flask jsou knihovny používané převážně k vytváření serverů a webových aplikací. Pomocí !!! bottle/flask ? !!!
+              jsem udělal chat server aplikaci, která používá Tkinter jako UI, nebo pár web serverů, většinou zobrazující nějaká data
+              z různých API.
+            </p>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="blackbox">
+              <hX><h6 style="padding-top: 10px"><b>moje Bottle & Flask projekty:</b></h6></hX>
+              <ul class="small">
+                  <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">chat server</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">recepty</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">Donald Trump dumb quotes</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">crypto web</a></li>
+              </ul>
             </div>
-        </dd>
+          </div> -->
 
-        <dt><a href="https://pypi.org/project/pysqlite3/" target="_blank">SQLite</a></dt>
-        <dd class="small">
+      </dd>
 
-          <div class="row">
+      <dt><a href="https://pypi.org/project/pysqlite3/" target="_blank">SQLite</a></dt>
+      <dd class="small">
 
-            <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
-              <p>
-                SQLite je knihovna používaná převážně pro vytváření databází. V této knihovně jsem udělal například pictureblog, což je webserver,
+        <div class="container-md">
+          <div class="blackbox blackbox-md">
+            <hX><h6 style="padding-top: 10px"><b>moje SQLite projekty:</b></h6></hX>
+              <ul class="small">
+                <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">picture blog</a></li>
+                <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">0.1.2</a></li>
+                <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+                <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+              </ul>
+          </div>
+          <div class="container-txt container-md-txt">
+            <p>
+              SQLite je knihovna používaná převážně pro vytváření databází. V této knihovně jsem udělal například pictureblog,
+              což je webserver, na kterém se dají přidávat obrázky do SQLite databáze a následně zobrazovat.
+            </p>
+          </div>
+        </div>
 
-              </p>
+        <!-- <div class="row">
+
+          <div class="col-md-8" style="padding-right: 3%; padding-left: 2%; padding-top: 1%;">
+            <p>
+              SQLite je knihovna používaná převážně pro vytváření databází. V této knihovně jsem udělal například pictureblog, což je webserver,
+
+            </p>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="blackbox">
+              <hX><h6 style="padding-top: 10px"><b>moje SQLite projekty:</b></h6></hX>
+              <ul class="small">
+                  <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">picture blog</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">0.1.2</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+                  <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+              </ul>
             </div>
-        
-            <div class="col-md-4">
-              <div class="blackbox">
-                <hX><h6 style="padding-top: 10px"><b>moje SQLite projekty:</b></h6></hX>
-                <ul class="small">
-                    <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">picture blog</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">0.1.2</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
-                    <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
-                </ul>
-              </div>
-            </div>
-        </dd>
+          </div> -->
 
-        <dd class="small">a mnoho dalších...</dd>
+      </dd>
+
+      <dd class="small">a mnoho dalších...</dd>
     </dl>
 
-  </div>
 
-  <div>
+
+  <div style="padding-top: 1%;">
     <p>
       V Pythonu jsem dělal i další projekty mimo tyto knihovny, jako například konzolovou hru <a href="" target="_blank">hangman</a> (šibenice).
     </p>
   </div>
 
-  <div class="row pt-3">
+
+
+  <!-- <div class="row pt-3">
 
     <div class="col-md-8" style="padding-right: 3%;" id="lft-blackbox-1">
       <p>
@@ -237,11 +380,32 @@
             <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
   </div>
 
-  <div class="row pt-3">
+  <div class="container-sm">
+    <div class="blackbox blackbox-sm">
+      <hX><h6 style="padding-top: 10px"><b>moje Minecraft mody:</b></h6></hX>
+        <ul class="small">
+          <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">custom tool</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">custom block</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+        </ul>
+    </div>
+    <div class="container-txt container-sm-txt">
+      <p>
+        Po absolvování kurzů Unity I a Unity II po dobu jednoho roku jsem začal chodit do dalšího
+        kurzu od <a href="https://makeittoday.cz/" target="_blank">makeITtoday</a>, kam dosud chodím
+        a učím se programovací jazyk <b>Java</b>. Java je asi jeden z nejpoužívanějších programovacích
+        jazyků. V tomto kurzu jsem se naučil základy Javy a nyní se učím, jak dělat mody do Minecraftu
+        pomocí add-onu Forge. 
+      </p>
+    </div>
+  </div>
+
+  <!-- <div class="row pt-3">
 
     <div class="col-md-8" style="padding-right: 3%;">
       <p>
@@ -265,9 +429,31 @@
       </div>
     </div>
 
+  </div> -->
+
+
+  <div class="container-sm" style="padding-bottom: 3%;">
+    <div class="blackbox blackbox-sm">
+      <hX><h6 style="padding-top: 10px"><b>Discord boti:</b></h6></hX>
+        <ul class="small">
+          <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">custom tool</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">custom block</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+        </ul>
+    </div>
+    <div class="container-txt container-sm-txt">
+      <p>
+        Mimo <a href="https://makeittoday.cz/" target="_blank">makeITtoday</a> jsem se sám naučil jak
+        vytvářet v pythonu Discord boty. Udělal jsem opravdu hodně botů, buď sám, nebo s kamarády. 
+        Můj nejlepší bot je asi "Crypto Bot", který bere data o kryptoměnách z API a pak je formátuje
+        a posílá na Discord podle zadaného příkazu.
+      </p>
+    </div>
   </div>
 
-  <div class="row pt-3">
+
+  <!-- <div class="row pt-3">
     <div class="col-md-8" style="padding-right: 3%;">
       <p>
         Mimo <a href="https://makeittoday.cz/" target="_blank">makeITtoday</a> jsem se sám naučil jak
@@ -288,9 +474,31 @@
         </ul>
       </div>
     </div>
+  </div> -->
+
+
+  <div class="container-sm">
+    <div class="blackbox blackbox-sm">
+      <hX><h6 style="padding-top: 10px"><b>YouTube bot:</b></h6></hX>
+        <ul class="small">
+          <li><a href="lenny_face_tycoon/newest/Lenny_Face_Tycoon_0.2.0_start.html" target="_blank">custom tool</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.2.html" target="_blank">custom block</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.1.html" target="_blank">0.1.1</a></li>
+          <li><a href="lenny_face_tycoon/Lenny_Face_Tycoon_0.1.0.html" target="_blank">0.1.0</a></li>
+        </ul>
+    </div>
+    <div class="container-txt container-sm-txt">
+      <p>
+        Zkusil jsem dát i gig na <a href="https://fiverr.com/" target="_blank">Fiverr</a>, kde jsem
+        nabízel naprogramování libovolného Discord bota a díky tomu jsem si vydělal $50. Dostal jsem 
+        za úkol vytvořit bota, který posílá oznámení na Discord, když daný <a href="https://youtube.com/" target="_blank">
+        YouTube</a> kanál vydá nové video. K tomu jsem musel použít <a href="https://developers.google.com/youtube/v3" target="_blank">
+        YouTube API</a> a vytvořit pro mě celkem složitý algoritmus.
+      </p>
+    </div>
   </div>
 
-  <div class="row pt-3">
+  <!-- <div class="row pt-3">
     <div class="col-md-8" style="padding-right: 3%;">
       <p>
         Zkusil jsem dát i gig na <a href="https://fiverr.com/" target="_blank">Fiverr</a>, kde jsem
@@ -313,7 +521,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
 </div>
 
@@ -328,6 +536,101 @@
 <script src="../../script.js"></script>
 
 <script>
+
+  if (screen.width <= 450) {
+    var container_sm = document.getElementsByClassName("container-sm");
+    var blackbox_sm = document.getElementsByClassName("blackbox-sm");
+    var txt_sm = document.getElementsByClassName("container-sm-txt");
+
+    for (var x=0; x < container_sm.length; x++) {
+      for (var y=0; y < txt_sm.length; y++) {
+        container_sm[x].innerHTML = `
+          <div class="container-txt container-sm-txt">
+            ${txt_sm[y].innerHTML}
+          </div>
+          <div class="blackbox" id="blackbox-phone">
+            ${blackbox_sm[y].innerHTML}
+          </div>
+        `;
+      }
+        
+    }
+
+    // container_sm[0].innerHTML = `
+    //   <div class="container-txt container-sm-txt">
+    //     ${txt_sm[0].innerHTML}
+    //   </div>
+    //   <div class="blackbox" id="blackbox-phone">
+    //     ${blackbox_sm[0].innerHTML}
+    //   </div>
+    // `;
+
+    // container_sm[1].innerHTML = `
+    //   <div class="container-txt container-sm-txt">
+    //     ${txt_sm[1].innerHTML}
+    //   </div>
+    //   <div class="blackbox" id="blackbox-phone">
+    //     ${blackbox_sm[1].innerHTML}
+    //   </div>
+    // `;
+
+    // container_sm[2].innerHTML = `
+    //   <div class="container-txt container-sm-txt">
+    //     ${txt_sm[2].innerHTML}
+    //   </div>
+    //   <div class="blackbox" id="blackbox-phone">
+    //     ${blackbox_sm[2].innerHTML}
+    //   </div>
+    // `;
+
+    // console.log(blackbox_sm[2].innerHTML)
+
+
+    // console.log(container_sm[2]);
+    // console.log(blackbox_sm[2].innerHTML);
+    // console.log(txt_sm[2]);
+
+    // container_sm[2].innerHTML = `
+    //   <div class="container-txt container-sm-txt">
+    //     ${txt_sm[2].innerHTML}
+    //   </div>
+    //   <div class="blackbox" id="blackbox-phone">
+    //     ${blackbox_sm[2].innerHTML}
+    //   </div>
+    // `;
+    }
+
+</script>
+
+
+
+
+
+
+        <!-- // document.getElementById("container-xs").innerHTML = `
+        //   <div id="container-txt">
+        //     ${document.getElementById("container-txt").innerHTML}
+        //   </div>
+        //   <div class="blackbox" id="blackbox-phone">
+        //     ${document.getElementById("blackbox-xs").innerHTML}
+        //   </div>
+        // `;
+
+  // document.getElementById("container-md").innerHTML = `
+  //   <div id="container-txt">
+  //     ${document.getElementById("container-txt").innerHTML}
+  //   </div>
+  //   <div class="blackbox" id="blackbox-phone">
+  //     ${document.getElementById("blackbox-md").innerHTML}
+  //   </div>
+  // `; -->
+
+
+
+
+
+
+<!-- <script>
 
 // if (window.innerWidth < 1000) {
 //   console.log(1);
@@ -344,4 +647,4 @@
 //   document.getElementById("lft-blackbox-2").classList.add("col-md-2");
 // }
 
-</script>
+</script> -->
