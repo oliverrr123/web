@@ -1,5 +1,5 @@
 :root {
-  --black: #000;
+  --black: #151515;
   --dark: #222;
   --light: #ccc;
   --white: #fff;
@@ -114,43 +114,50 @@ h1 {
 
 #main-div::before {
   content: '';
-  background-image: url(image.png);
+  background-image: url(hacker.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
   top: 0px; right: 0px; bottom: 0px; left: 0px;
-  opacity: 0.25;
+  opacity: 0.20;
 }
 
 #main-text {
   color: var(--white);
-  text-shadow: 1px 1px 3px var(--black);
-  font-size: 150%;
+  text-shadow: 1px 1px 2px var(--dark);
+  font-size: 175%;
   text-align: left;
-  padding-top: 25%;
+  padding-top: 20%;
   padding-left: 5%;
   position: absolute;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   #main-text {
-    font-size: 100%;
+    font-size: 125%;
   }
-}
+} */
 
 @media screen and (max-width: 800px) {
   #main-text {
-    font-size: 90%;
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 600px) {
+/*
+@media screen and (max-width: 410px) {
+  #main-text {
+    font-size: 100%;
+  }
+}  */
+
+/* @media screen and (max-width: 600px) {
   #main-text {
     font-size: 100%;
     text-align: center;
   }
-}
+} */
 
 #section {
   color: var(--light);
