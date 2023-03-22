@@ -203,14 +203,23 @@ h1 {
 
 .blackbox {
   background-color: var(--black);
-  padding-left: 2%;
-  padding-right: 2%;
+  padding: 1% 2%;
   text-align: left;
   font-size: 90%;
 }
 
 .blackbox h6 {
   margin-bottom: 1%;
+}
+
+.blackbox > ul {
+  margin: 0;
+}
+
+div.container-xs, div.container-sm, 
+div.container-md, div.container-lg,
+div.container-xl {
+  padding: 0;
 }
 
 .blackbox-xs {
@@ -264,6 +273,24 @@ h1 {
 @media screen and (max-width: 1200px) {
   .blackbox-lg {
     width: 50%;
+  }
+}
+
+.blackbox-xl {
+  width: 40%;
+  margin-left: 3%;
+  float: right;
+}
+
+@media screen and (max-width: 1200px) {
+  .blackbox-xl {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .blackbox-xl {
+    width: 55%;
   }
 }
 
