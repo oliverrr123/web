@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliver Cingl</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0; padding: 0;
+            color: white;
+            overflow: hidden;
+        }
+        #txt {
+            padding: 0; margin: 0;
+            position: absolute;
+            text-align: center;
+            font-size: 500%;
+            left: 50%; top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            font-family: Consolas, monospace;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <p id="txt">Oliver Cingl</p>
+</body>
+</html>
+
+<script>
+    var letters = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
+    var txt = document.getElementById("txt");
+    var word = "Oliver Cingl"
+    var txt_letters = txt.innerText.split("");
+    var counter = 0;
+    var current = 0;
+    var sCount = 0;
+    var sInterval;
+    var opacity = 1;
+
+    console.log(Math.round(Math.random() * 26));
+    console.log(txt.innerText.split(""));
+
+    function hack() {
+        for (var letter=0; letter < txt_letters.length; letter++) {
+            if (counter >= 50) {  
+                if (letter <= Math.floor(current)) {
+                    txt_letters[letter] = word[letter];
+                    current += Math.random() * 0.25;
+                }
+                else {
+                    txt_letters[letter] = letters[Math.round(Math.random() * 26)];
+                }
+                if (current >= 26) {
+                    clearInterval(interval);
+                    txt.innerText = "Oliver Cingl";
+
+                    txt.style.fontSize = "500%";
+                    txt.style.opacity = "1";
+                    sInterval = setInterval(scale, 1);
+                }
+            }
+            else {
+                txt_letters[letter] = letters[Math.round(Math.random() * 26)];
+                counter++;
+            }
+        }
+        txt.innerText = txt_letters.join("");
+    }
+    interval = setInterval(hack, 75);
+    
+    
+    
+    // console.log(size);
+    // while (x < 99999) {
+        //     size += 0.01;
+        //     txt.style.fontSize = `${size}%`;
+        //     x += 1
+        // }
+        // for (var x=0; x < 9999; x++) {
+    //     size += 0.000001;
+    //     txt.style.fontSize = `${size}%`;
+    // }
+    
+    
+    function scale() {
+        txt.style.fontSize = `${((1/50) * (sCount * sCount)) + 500}%`;
+        opacity = opacity - 0.001;
+        txt.style.opacity = String(opacity);
+        // txt.style.opacity = String(parseInt(txt.style.opacity) - 0.001);
+        console.log(opacity);
+        sCount++;
+        if (sCount >= 1) {
+            // window.location.replace("index.html");
+            window.location.href = "index.html";
+        }
+    }
+
+    // if (sCount >= 100) {
+    //     console.log("success!");
+    // }
+
+    // if (txt.style.fontSize.length)
+
+
+</script>
+
