@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+	<title>electrical-engineering</title>
+	<style>
+		.s0 { fill: #000000 } 
+		.s1 { fill: none;stroke: #00ff00;stroke-linecap: round;stroke-linejoin: round;stroke-width: 78 } 
+		.s2 { fill: none;stroke: #00ff00;stroke-linecap: round;stroke-linejoin: round;stroke-width: 85 } 
+		.s3 { fill: none;stroke: #00ff00;stroke-linecap: round;stroke-linejoin: round;stroke-width: 128 } 
+		.s4 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 85 } 
+		.s5 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 59 } 
+	</style>
+	<path id="Shape 1" class="s0" d="m512 1024c-283.1 0-512-228.9-512-512 0-283.1 228.9-512 512-512 283.1 0 512 228.9 512 512 0 283.1-228.9 512-512 512z"/>
+	<path id="Shape 5" class="s0" d="m-179 133h10v5h-10z"/>
+	<path id="Shape 4" class="s1" d="m393.7 358.2h18.3v304.7h-18.3z"/>
+	<path id="Shape 4 copy" class="s2" d="m741 549v4.6h-288.5v-4.6z"/>
+	<path id="Shape 4 copy 2" class="s2" d="m743.7 550.7h-4.1v-141.4h4.1z"/>
+	<path id="Shape 3" class="s3" d="m405.1 890.3c-54.8 0-99.1-44.3-99.1-99.1 0-54.8 44.3-99.1 99.1-99.1 54.7 0 99 44.3 99 99.1 0 54.8-44.3 99.1-99 99.1z"/>
+	<path id="Shape 3 copy" class="s3" d="m405.1 336.1c-54.8 0-99.1-44.3-99.1-99 0-54.8 44.3-99.1 99.1-99.1 54.7 0 99 44.3 99 99.1 0 54.7-44.3 99-99 99z"/>
+	<path id="Shape 3 copy 2" class="s3" d="m736.5 373.2c-27.4 0-49.6-22.1-49.6-49.5 0-27.4 22.2-49.5 49.6-49.5 27.4 0 49.5 22.1 49.5 49.5 0 27.4-22.1 49.5-49.5 49.5z"/>
+	<path id="Shape 6" class="s4" d="m407 839c-23.2 0-42-18.8-42-42 0-23.2 18.8-42 42-42 23.2 0 42 18.8 42 42 0 23.2-18.8 42-42 42z"/>
+	<path id="Shape 6 copy 2" class="s5" d="m737.5 344c-11.3 0-20.5-9.2-20.5-20.5 0-11.3 9.2-20.5 20.5-20.5 11.3 0 20.5 9.2 20.5 20.5 0 11.3-9.2 20.5-20.5 20.5z"/>
+	<path id="Shape 6 copy" class="s4" d="m407 273c-23.2 0-42-18.8-42-42 0-23.2 18.8-42 42-42 23.2 0 42 18.8 42 42 0 23.2-18.8 42-42 42z"/>
+</svg>
