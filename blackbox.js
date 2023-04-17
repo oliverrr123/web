@@ -39,13 +39,6 @@ if (screen.width <= 450) {
     }
 
     for (var x=0; x < container_md.length; x++) {
-        // console.log(x);
-        // console.log(blackbox_md[x]);
-        // console.log(blackbox_md[0]);
-        // console.log(container_md[x]);
-        // console.log(txt_md[x]);
-        console.log(txt_md);
-        console.log("-");
         container_md[x].innerHTML = `
         <div class="container-txt container-md-txt">
             ${txt_md[x].innerHTML}

@@ -31,10 +31,9 @@ body {
   }
 }
 
-a:not(.menu) {
+a:not(.menu, .a) {
   color: var(--green);
   text-decoration: none;
-  /* transition: 200ms; */
   display: inline-block;
   position: relative;
 }
@@ -392,4 +391,8 @@ footer > p {
 
 footer button {
   background-color: var(--black);
+}
+
+.a {
+  text-decoration: none;
 }
