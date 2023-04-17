@@ -6,7 +6,7 @@
             <h1>menu</h1>
         </div>
         <div class="col-2" style="padding-top: 1.25%;">
-            <a id="trigger" onclick="menu()">
+            <a id="trigger" onclick="menu()" class="menu">
             <div id="menu-div">  
                 <div id="menu1-2" class="menu"></div>
                 <div id="menu2-2" class="menu"></div>
@@ -21,13 +21,13 @@
         <div class="col-1"></div>
         <div class="col-11">
         <ul>
-            <li><a href="stuff/programming/programming.html">Programování</a></li>
-            <li><a href="stuff/electrical_engineering/electical_engineering.html">Elektrotechnika</a></li>
-            <li><a href="stuff/video_editing/video_editing.html">Video Editing</a></li>
-            <li><a href="stuff/art/art.html">3D/2D Art</a></li>
-            <li><a href="stuff/piano/piano.html">Piano</a></li>
-            <li><a href="stuff/karate/karate.html">Karate</a></li>
-            <li><a href="stuff/japanese/japanese.html">Japonština</a></li>
+            <li><a href="programming.html">Programování</a></li>
+            <li><a href="electical_engineering.html">Elektrotechnika</a></li>
+            <li><a href="video_editing.html">Video Editing</a></li>
+            <li><a href="art.html">3D/2D Art</a></li>
+            <li><a href="piano.html">Piano</a></li>
+            <li><a href="karate.html">Karate</a></li>
+            <li><a href="japanese.html">Japonština</a></li>
         </ul>
         </div>
     </div>
@@ -37,7 +37,7 @@
 <header>
 <div class="row">
     <div class="col-1">
-    <a onclick="menu()">
+    <a onclick="menu()" class="menu">
         <div id="menu-div">
         
         <div id="menu1-1" class="menu"></div>
@@ -47,7 +47,7 @@
         </div>
     </a>
     </div>
-    <div class="col-10"><h1><a id="main-h1" href="../../index.html">Oliver Cingl</a></h1></div>
+    <div class="col-10"><h1><a id="main-h1" href="index.html">Oliver Cingl</a></h1></div>
     <div class="col-1">
 
     </div>
@@ -55,4 +55,13 @@
 
 </header>
 
-<script src="../../script.js"></script>
+<script src="script.js"></script>
+<!-- <script>
+    var menu = document.getElementById("trigger");
+    console.log(menu.style);
+    menu.style.removeProperty("width");
+    menu.style.removeProperty("height");
+    menu.style.removeProperty("transform");
+    menu.style.removeProperty("left");
+    menu.style.removeProperty("bottom");
+</script> -->

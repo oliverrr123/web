@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+	<title>video-editing</title>
+	<style>
+		.s0 { fill: #000000 } 
+		.s1 { fill: #00ff00;stroke: #00ff00;stroke-linecap: round;stroke-linejoin: round;stroke-width: 100 } 
+	</style>
+	<path id="Shape 1" class="s0" d="m512 1024c-283.1 0-512-228.9-512-512 0-283.1 228.9-512 512-512 283.1 0 512 228.9 512 512 0 283.1-228.9 512-512 512z"/>
+	<path id="Layer 1" class="s1" d="m545.3 340v345h-390.3v-345z"/>
+	<path id="Layer 1 copy" class="s1" d="m545.3 340v345h-390.3v-345z"/>
+	<path id="Shape 2" class="s1" d="m584.3 525.1l25.2-43.7 247.6 142.9-25.3 43.7z"/>
+	<path id="Shape 2 copy" class="s1" d="m837.3 353.1l25.3 43.8-247.6 142.9-25.3-43.8z"/>
+	<path id="Shape 3" class="s1" d="m841.6 352.8l27.4-0.4v320.2l-27.4 0.4z"/>
+	<path id="Shape 3 copy 2" class="s1" d="m791.1 432.5h67.4v160.1h-67.4z"/>
+</svg>

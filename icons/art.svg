@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+	<title>art</title>
+	<style>
+		.s0 { fill: #000000 } 
+		.s1 { fill: #00ff00 } 
+		.s2 { fill: #00ff00;stroke: #00ff00;stroke-linecap: round;stroke-linejoin: round;stroke-width: 100 } 
+	</style>
+	<path id="Shape 2" class="s0" d="m512 1024c-283.1 0-512-228.9-512-512 0-283.1 228.9-512 512-512 283.1 0 512 228.9 512 512 0 283.1-228.9 512-512 512z"/>
+	<path id="Shape 4" class="s1" d=""/>
+	<path id="Shape 5" class="s1" d=""/>
+	<path id="Shape 6" class="s1" d=""/>
+	<path id="Shape 7" class="s1" d="m162.8 847.1c-16.5-20 84.9-254.4 195.6-246.5 37.2 2.7 76.6 37.2 80.7 69.4 12.8 99-259.3 197.9-276.3 177.1z"/>
+	<path id="Shape 3" class="s2" d="m812.9 209l14.1 14.1-337.4 337.4-14.1-14.1z"/>
+</svg>

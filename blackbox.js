@@ -11,6 +11,11 @@ if (screen.width <= 450) {
     var blackbox_md = document.getElementsByClassName("blackbox-md");
     var txt_md = document.getElementsByClassName("container-md-txt");
 
+    var container_xl = document.getElementsByClassName("container-xl");
+    var blackbox_xl = document.getElementsByClassName("blackbox-xl");
+    var txt_xl = document.getElementsByClassName("container-xl-txt");
+
+
     for (var x=0; x < container_xs.length; x++) {
         container_xs[x].innerHTML = `
         <div class="container-txt container-xs-txt">
@@ -40,6 +45,17 @@ if (screen.width <= 450) {
         </div>
         <div class="blackbox" id="blackbox-phone">
             ${blackbox_md[0].innerHTML}
+        </div>
+        `;
+    }
+
+    for (var x=0; x < container_xl.length; x++) {
+        container_xl[x].innerHTML = `
+        <div class="container-txt container-xl-txt">
+            ${txt_xl[x].innerHTML}
+        </div>
+        <div class="blackbox" id="blackbox-phone">
+            ${blackbox_xl[0].innerHTML}
         </div>
         `;
     }
